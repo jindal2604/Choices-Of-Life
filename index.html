@@ -9,10 +9,34 @@
     <script src="BaseClass.js"></script>
     <script src="Ground.js"></script>
     <script src="Key.js"></script>
-    <!-- <script src="Player.js"></script>
-    <script src="Game.js"></script>
-    <script src="Form.js"></script> -->
+     <script src="Player.js"></script>
+    <script src="Form.js"></script> 
     
+    
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+    
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyBXL1aHPy_VXWHnq8viw8Cvm-MqL6bvNd8",
+        authDomain: "findara---the-lost-kingdom.firebaseapp.com",
+        databaseURL: "https://findara---the-lost-kingdom-default-rtdb.firebaseio.com",
+        projectId: "findara---the-lost-kingdom",
+        storageBucket: "findara---the-lost-kingdom.appspot.com",
+        messagingSenderId: "379835686059",
+        appId: "1:379835686059:web:b4f3cbf7adf33903036bee",
+        measurementId: "G-5EB05L7EX4"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8">
 </head>
